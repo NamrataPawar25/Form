@@ -193,6 +193,7 @@ button {
   font-family:'Times New Roman', Times, serif;
   background-color: rgb(9, 134, 117);
   border: 1px solid white;
+  color: white;
 }
 .right-panel{
   width: 500px;
@@ -239,4 +240,5 @@ button {
   width: 100px;
   /* border-radius: 5px; */
   margin-bottom: 50px;
+  color: white !important;
 }
