@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Assignment</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container1">
+        <h1>Register</h1>
+        <p>Kindly fill This form to register</p>
+        <form>
+            <label for="username"><b>Username</b></label>
+            <input type="text" id="username" placeholder="Enter Username" required />
+            <label for="email"><b>Email</b></label>
+            <input type="email" id="email" placeholder="Enter Email" required />
+            <label for="password"><b>Password</b></label>
+            <input type="password" id="password" placeholder="Enter Password" required />
+            <label for="repeat-password"><b>Repeat Password</b></label>
+            <input type="password" id="repeat-password" placeholder="Repeat Password" required />
+            <button type="submit">Register</button>
+        </form>
+        <p class="logIn">Already have an Account? <a href="#">Log in</a></p>
+    </div>
+
+    <div class="container2">
+        <h1>Registration</h1>
+        <p class="section">Personal Details</p>
+        <form>
+            <div class="form-group">
+                <div class="row">
+                    <label><b>Full Name</b></label>
+                    <input type="text" placeholder="Enter your Name" required />
+                </div>
+                <div class="row">
+                    <label><b>Date Of Birth</b></label>
+                    <input type="date" placeholder="Enter Birth Date" required />
+                </div>
+                <div class="row">
+                    <label><b>Email</b></label>
+                    <input type="email" placeholder="Enter your email" required />
+                </div>
+                <div class="row">
+                    <label><b>Mobile Number</b></label>
+                    <input type="number" placeholder="Enter mobile number" required />
+                </div>
+                <div class="row">
+                    <label><b>Gender</b></label>
+                    <input type="text" placeholder="Enter your gender" required />
+                </div>
+                <div class="row">
+                    <label><b>Occupation</b></label>
+                    <input type="text" placeholder="Enter occupation" required />
+                </div>
+            </div>
+            <p class="section">Identity Details</p>
+            <div class="form-group">
+                <div class="row">
+                    <label><b>ID Type</b></label>
+                    <input type="text" placeholder="Enter ID type" required />
+                </div>
+                <div class="row">
+                    <label><b>ID Number</b></label>
+                    <input type="number" placeholder="Enter ID number" required />
+                </div>
+                <div class="row">
+                    <label><b>Issue Authority</b></label>
+                    <input type="text" placeholder="Enter issue department" required />
+                </div>
+                <div class="row">
+                    <label><b>Issue Date</b></label>
+                    <input type="date" placeholder="Enter ID issue date" required />
+                </div>
+                <div class="row">
+                    <label><b>Issue State</b></label>
+                    <input type="text" placeholder="Enter ID issue state" required />
+                </div>
+                <div class="row">
+                    <label><b>Expiry Date</b></label>
+                    <input type="date" placeholder="Enter ID expiry date" required />
+                </div>
+                <button type="submit" class="nextBtn"><a href="#">Next →</a></button>
+            </div>
+        </form>
+    </div>
+
+    <div class="card">
+        <h1>Registration</h1>
+        <hr />
+        <div class="toggle">
+            <input type="radio" id="personal" name="account" checked value="Personal" />
+            <label for="personal">Personal</label>
+            <input type="radio" id="company" name="account" value="Company" />
+            <label for="company">Company</label>
+        </div>
+        <hr />
+        <form>
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Email" required />
+            </div>
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Name" required />
+            </div>
+            <div class="input-group">
+                <i class="fas fa-shield-alt"></i>
+                <input type="password" placeholder="Password" required />
+            </div>
+            <div class="toggle">
+                <input type="radio" id="female" name="gender" checked value="Female" />
+                <label for="female">Female</label>
+                <input type="radio" id="male" name="gender" value="Male" />
+                <label for="male">Male</label>
+            </div>
+            <div class="CardPandBtn">
+                <p class="terms">
+                    By clicking Register, you agree on our
+                    <a href="#">terms and condition</a>.
+                </p>
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="container3">
+        <div class="left-panel">
+          <h2>Welcome Back!</h2>
+          <p>Provide your personal details to use all features</p>
+          <button class="sign-in-btn">SIGN IN</button>
+        </div>
+        <div class="right-panel">
+          <h2>Register With</h2>
+          <div class="social-icons">
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+          <p class="or-text">OR</p>
+          <p class="form-title">Fill Out The Following Info For Registration</p>
+          <form class="container3Form">
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Password" required />
+            <button class="sign-up-btn" type="submit">SIGN UP</button>
+          </form>
+        </div>
+      </div>
+
+
+</body>
+
+</html>
